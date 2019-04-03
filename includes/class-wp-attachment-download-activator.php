@@ -30,6 +30,6 @@ class Wp_Attachment_Download_Activator {
      * @since    1.0.0
      */
     public static function activate() {
-        
+        mkdir(DOWNLOAD_MEDIA_FOLDER);       
     }
 }
