@@ -1,0 +1,211 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Attachment Download\n"
+"POT-Creation-Date: 2019-04-03 23:29+0200\n"
+"PO-Revision-Date: 2019-04-03 23:29+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-attachment-download.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-wp-attachment-download-admin.php:120
+msgid "Download Attachments"
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:120
+#: admin/class-wp-attachment-download-admin.php:429
+msgid "Attachments"
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:134
+msgid "Download attachments"
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:170
+#: admin/class-wp-attachment-download-admin.php:292
+msgid "The request was successful."
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:171
+#, php-format
+msgid ""
+"Your ZIP file is prepared and should be downloaded automatically. If not you "
+"can download it <a href=\"%1$s\" download target=\"_blank\">here</a>. Have a "
+"nice day!"
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:185
+msgid "Invalid nonce specified"
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:185
+msgid "Error"
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:216
+#, php-format
+msgid "Found %1$d posts with %2$d attachments."
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:218
+msgid "Continue by clicking Download button."
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:220
+msgid "There is nothing to download for specified parameters."
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:242
+#, php-format
+msgid "ZIP file created here: <b>%1$s</b><br>"
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:253
+#, php-format
+msgid "Post <b>%1$s</b>:<br>"
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:259
+#, php-format
+msgid " - file <b>%1$s</b> added to ZIP file<br>"
+msgstr ""
+
+#: admin/class-wp-attachment-download-admin.php:444
+#, php-format
+msgid ""
+"<a href=\"%1$s\" target=\"_blank\">%2$s</a> by <a href=\"%3$s\" target="
+"\"_blank\">%4$s</a>"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:24
+msgid ""
+"Required plugin <a href=\"https://www.advancedcustomfields.com/\" target="
+"\"blank\">Advanced Custom Fields</a> not found! Please make sure you have it "
+"installed and activated."
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:30
+msgid "Select post type"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:75
+msgid ""
+"First select posts you want to download attachments from. Select post type "
+"and publish date range, then hit <b>Download</b> button. After successfull "
+"processing archive in ZIP format will be prepared to download to your PC."
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:81
+#, php-format
+msgid ""
+"ZIP file will contain attachment files with folowing naming convention: %1$s_"
+"%2$s_%3$s_%4$s.%4$s"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:89
+msgid "Specify posts"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:93
+msgid "Post type"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:103
+msgid "Published from"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:106
+#: admin/partials/wp-attachment-download-admin-display.php:115
+msgid "Select date"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:107
+msgid "By default set to first day of current year."
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:112
+msgid "Published to"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:116
+msgid "By default set to current day."
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:122
+msgid "Field group verification"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:124
+msgid ""
+"Select field group that contains ACF file fields (available only when more "
+"of them)."
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:125
+msgid ""
+"This field is editable only if there are more field groups containing <a "
+"href=\"https://www.advancedcustomfields.com/\" target=\"blank\" title="
+"\"Advanced Custom Fields\">ACF</a> file fields and you need to select one of "
+"them."
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:127
+msgid "Field group"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:136
+msgid "Preview beeing generated..."
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:140
+msgid "Preview"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:147
+msgid "Download"
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:151
+msgid ""
+"Your attachments archive is being prepared. Execution time depends on posts "
+"count you specified."
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:163
+msgid "You are not authorized to perform this operation."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Attachment Download"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/wetory/wp-attachment-download"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Plugin adds functionality to download posts attachments build with ACF file "
+"fields from administration."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wetory"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.wetory.eu/"
+msgstr ""
