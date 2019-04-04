@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Attachment Download\n"
-"POT-Creation-Date: 2019-04-03 23:29+0200\n"
-"PO-Revision-Date: 2019-04-03 23:30+0200\n"
+"POT-Creation-Date: 2019-04-04 14:54+0200\n"
+"PO-Revision-Date: 2019-04-04 14:55+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs_CZ\n"
@@ -109,7 +109,18 @@ msgstr ""
 msgid "Select post type"
 msgstr "Vyberte typ příspěvku"
 
-#: admin/partials/wp-attachment-download-admin-display.php:75
+#: admin/partials/wp-attachment-download-admin-display.php:76
+msgid ""
+"No field groups containing any <a href=\"https://www.advancedcustomfields."
+"com/resources/file/\" target=\"blank\">file field</a> found! This plugin is "
+"useles until you have some file fields in you system."
+msgstr ""
+"Nebyly nalezeny žádné skupiny polí obsahující <a href=\"https://www."
+"advancedcustomfields.com/resources/file/\" target=\"blank\">pole souboru</"
+"a>! Tento zásuvný modul není použitelný, dokud nemáte v systému alespoň "
+"jedno pole typu soubor."
+
+#: admin/partials/wp-attachment-download-admin-display.php:81
 msgid ""
 "First select posts you want to download attachments from. Select post type "
 "and publish date range, then hit <b>Download</b> button. After successfull "
@@ -120,7 +131,7 @@ msgstr ""
 "b> . Po úspěšném zpracování archiv ve formátu ZIP bude připraven ke stažení "
 "do vašeho počítače."
 
-#: admin/partials/wp-attachment-download-admin-display.php:81
+#: admin/partials/wp-attachment-download-admin-display.php:87
 #, php-format
 msgid ""
 "ZIP file will contain attachment files with folowing naming convention: %1$s_"
@@ -129,40 +140,40 @@ msgstr ""
 "Soubor ZIP bude obsahovat soubory příloh s následující konvencí pojmenování: "
 "%1$s_%2$s_%3$s_%4$s.%4$s"
 
-#: admin/partials/wp-attachment-download-admin-display.php:89
+#: admin/partials/wp-attachment-download-admin-display.php:95
 msgid "Specify posts"
 msgstr "Zvolit příspěvky"
 
-#: admin/partials/wp-attachment-download-admin-display.php:93
+#: admin/partials/wp-attachment-download-admin-display.php:99
 msgid "Post type"
 msgstr "Typ příspěvku"
 
-#: admin/partials/wp-attachment-download-admin-display.php:103
+#: admin/partials/wp-attachment-download-admin-display.php:109
 msgid "Published from"
 msgstr "Publikováno od"
 
-#: admin/partials/wp-attachment-download-admin-display.php:106
-#: admin/partials/wp-attachment-download-admin-display.php:115
+#: admin/partials/wp-attachment-download-admin-display.php:112
+#: admin/partials/wp-attachment-download-admin-display.php:121
 msgid "Select date"
 msgstr "Vyberte datum"
 
-#: admin/partials/wp-attachment-download-admin-display.php:107
+#: admin/partials/wp-attachment-download-admin-display.php:113
 msgid "By default set to first day of current year."
 msgstr "Výchozí hodnota nastavena na první den aktuálního roku."
 
-#: admin/partials/wp-attachment-download-admin-display.php:112
+#: admin/partials/wp-attachment-download-admin-display.php:118
 msgid "Published to"
 msgstr "Publikováno do"
 
-#: admin/partials/wp-attachment-download-admin-display.php:116
+#: admin/partials/wp-attachment-download-admin-display.php:122
 msgid "By default set to current day."
 msgstr "Výchozí hodnota nastavena na dnešek."
 
-#: admin/partials/wp-attachment-download-admin-display.php:122
+#: admin/partials/wp-attachment-download-admin-display.php:128
 msgid "Field group verification"
 msgstr "Ověření skupiny polí"
 
-#: admin/partials/wp-attachment-download-admin-display.php:124
+#: admin/partials/wp-attachment-download-admin-display.php:130
 msgid ""
 "Select field group that contains ACF file fields (available only when more "
 "of them)."
@@ -170,7 +181,7 @@ msgstr ""
 "Vyberte skupinu polí, která obsahuje ACF pole typu soubor (k dispozici pouze "
 "pokud jich je více)."
 
-#: admin/partials/wp-attachment-download-admin-display.php:125
+#: admin/partials/wp-attachment-download-admin-display.php:131
 msgid ""
 "This field is editable only if there are more field groups containing <a "
 "href=\"https://www.advancedcustomfields.com/\" target=\"blank\" title="
@@ -182,23 +193,23 @@ msgstr ""
 "\" title=\"Advanced Custom Fields\">ACF</a> pole typu soubor a je třeba "
 "vybrat jednu z nich."
 
-#: admin/partials/wp-attachment-download-admin-display.php:127
+#: admin/partials/wp-attachment-download-admin-display.php:133
 msgid "Field group"
 msgstr "Skupina polí"
 
-#: admin/partials/wp-attachment-download-admin-display.php:136
+#: admin/partials/wp-attachment-download-admin-display.php:142
 msgid "Preview beeing generated..."
 msgstr "Generování náhledu..."
 
-#: admin/partials/wp-attachment-download-admin-display.php:140
+#: admin/partials/wp-attachment-download-admin-display.php:146
 msgid "Preview"
 msgstr "Náhled"
 
-#: admin/partials/wp-attachment-download-admin-display.php:147
+#: admin/partials/wp-attachment-download-admin-display.php:153
 msgid "Download"
 msgstr "Stáhnout"
 
-#: admin/partials/wp-attachment-download-admin-display.php:151
+#: admin/partials/wp-attachment-download-admin-display.php:157
 msgid ""
 "Your attachments archive is being prepared. Execution time depends on posts "
 "count you specified."
@@ -206,7 +217,7 @@ msgstr ""
 "Probíhá příprava archivu příloh. Doba provádění závisí na zadaném počtu "
 "příspěvků."
 
-#: admin/partials/wp-attachment-download-admin-display.php:163
+#: admin/partials/wp-attachment-download-admin-display.php:170
 msgid "You are not authorized to perform this operation."
 msgstr "K provedení této operace nemáte oprávnění."
 

@@ -46,6 +46,9 @@ You can find download link in successful request information section under Downl
 
 == Changelog ==
 
+= 1.0.1 =
+* Added check if there are some ACF field groups containing file fields before displaying admin form
+
 = 1.0.0 =
 * First fully functional tested version of this plugin.
 

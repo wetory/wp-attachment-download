@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: WP Attachment Download\n"
-"POT-Creation-Date: 2019-04-03 23:29+0200\n"
-"PO-Revision-Date: 2019-04-03 23:29+0200\n"
+"POT-Creation-Date: 2019-04-04 14:54+0200\n"
+"PO-Revision-Date: 2019-04-04 14:54+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -101,60 +101,67 @@ msgstr ""
 msgid "Select post type"
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:75
+#: admin/partials/wp-attachment-download-admin-display.php:76
+msgid ""
+"No field groups containing any <a href=\"https://www.advancedcustomfields."
+"com/resources/file/\" target=\"blank\">file field</a> found! This plugin is "
+"useles until you have some file fields in you system."
+msgstr ""
+
+#: admin/partials/wp-attachment-download-admin-display.php:81
 msgid ""
 "First select posts you want to download attachments from. Select post type "
 "and publish date range, then hit <b>Download</b> button. After successfull "
 "processing archive in ZIP format will be prepared to download to your PC."
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:81
+#: admin/partials/wp-attachment-download-admin-display.php:87
 #, php-format
 msgid ""
 "ZIP file will contain attachment files with folowing naming convention: %1$s_"
 "%2$s_%3$s_%4$s.%4$s"
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:89
+#: admin/partials/wp-attachment-download-admin-display.php:95
 msgid "Specify posts"
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:93
+#: admin/partials/wp-attachment-download-admin-display.php:99
 msgid "Post type"
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:103
+#: admin/partials/wp-attachment-download-admin-display.php:109
 msgid "Published from"
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:106
-#: admin/partials/wp-attachment-download-admin-display.php:115
+#: admin/partials/wp-attachment-download-admin-display.php:112
+#: admin/partials/wp-attachment-download-admin-display.php:121
 msgid "Select date"
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:107
+#: admin/partials/wp-attachment-download-admin-display.php:113
 msgid "By default set to first day of current year."
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:112
+#: admin/partials/wp-attachment-download-admin-display.php:118
 msgid "Published to"
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:116
+#: admin/partials/wp-attachment-download-admin-display.php:122
 msgid "By default set to current day."
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:122
+#: admin/partials/wp-attachment-download-admin-display.php:128
 msgid "Field group verification"
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:124
+#: admin/partials/wp-attachment-download-admin-display.php:130
 msgid ""
 "Select field group that contains ACF file fields (available only when more "
 "of them)."
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:125
+#: admin/partials/wp-attachment-download-admin-display.php:131
 msgid ""
 "This field is editable only if there are more field groups containing <a "
 "href=\"https://www.advancedcustomfields.com/\" target=\"blank\" title="
@@ -162,29 +169,29 @@ msgid ""
 "them."
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:127
+#: admin/partials/wp-attachment-download-admin-display.php:133
 msgid "Field group"
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:136
+#: admin/partials/wp-attachment-download-admin-display.php:142
 msgid "Preview beeing generated..."
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:140
+#: admin/partials/wp-attachment-download-admin-display.php:146
 msgid "Preview"
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:147
+#: admin/partials/wp-attachment-download-admin-display.php:153
 msgid "Download"
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:151
+#: admin/partials/wp-attachment-download-admin-display.php:157
 msgid ""
 "Your attachments archive is being prepared. Execution time depends on posts "
 "count you specified."
 msgstr ""
 
-#: admin/partials/wp-attachment-download-admin-display.php:163
+#: admin/partials/wp-attachment-download-admin-display.php:170
 msgid "You are not authorized to perform this operation."
 msgstr ""
 

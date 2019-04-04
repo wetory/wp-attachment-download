@@ -32,6 +32,6 @@ class Wp_Attachment_Download_Activator {
     public static function activate() {
         if(!is_dir(DOWNLOAD_MEDIA_FOLDER)){
             mkdir(DOWNLOAD_MEDIA_FOLDER);
-        }    
+        }
     }
 }

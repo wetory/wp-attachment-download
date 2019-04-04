@@ -17,7 +17,7 @@
  * Plugin URI:        https://github.com/wetory/wp-attachment-download
  * GitHub URI:        https://github.com/wetory/wp-attachment-download  
  * Description:       Plugin adds functionality to download posts attachments build with ACF file fields from administration. 
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Wetory
  * Author URI:        https://www.wetory.eu/
  * License:           GPL-2.0+
@@ -44,7 +44,7 @@ defined('PLUGIN_FILE') or define('PLUGIN_FILE', __FILE__);
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define('WP_ATTACHMENT_DOWNLOAD_VERSION', '1.0.0');
+define('WP_ATTACHMENT_DOWNLOAD_VERSION', '1.0.1');
 
 /**
  * The code that runs during plugin activation.
