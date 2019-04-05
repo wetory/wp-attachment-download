@@ -14,7 +14,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       WP Attachment Download
- * Plugin URI:        https://github.com/wetory/wp-attachment-download
+ * Plugin URI:        https://www.wetory.eu/wordpress/plugins/wp-attachments-download/
  * GitHub URI:        https://github.com/wetory/wp-attachment-download  
  * Description:       Plugin adds functionality to download posts attachments build with ACF file fields from administration. 
  * Version:           1.0.1
