@@ -170,6 +170,6 @@
         <p> <?php __("You are not authorized to perform this operation.", $this->plugin_name) ?> </p>
     <?php endif; // check user permissions to perform actions ?>
 
-    <?php apply_filters('created_by', PLUGIN_FILE); ?>
+    <?php // apply_filters('created_by', WAD_PLUGIN_FILE); ?>
 
 </div>

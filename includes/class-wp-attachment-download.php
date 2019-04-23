@@ -67,8 +67,8 @@ class Wp_Attachment_Download {
      * @since    1.0.0
      */
     public function __construct() {
-        if (defined('WP_ATTACHMENT_DOWNLOAD_VERSION')) {
-            $this->version = WP_ATTACHMENT_DOWNLOAD_VERSION;
+        if (defined('WAD_VERSION')) {
+            $this->version = WAD_VERSION;
         } else {
             $this->version = '1.0.0';
         }

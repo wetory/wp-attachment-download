@@ -72,7 +72,7 @@ class Wp_Attachment_Download_Admin {
          * class.
          */
         if ('tools_page_' . $this->plugin_name == get_current_screen()->id) {
-            wp_enqueue_style($this->plugin_name, plugin_dir_url(__FILE__) . 'css/wp-attachment-download-admin.css', array(), $this->version, 'all');
+            wp_enqueue_style($this->plugin_name, plugin_dir_url(__FILE__) . 'css/wp-attachment-download-admin.min.css', array(), $this->version, 'all');
             wp_enqueue_style('jquery-ui-css', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css');
         }
     }
@@ -97,7 +97,7 @@ class Wp_Attachment_Download_Admin {
          */
         if ('tools_page_' . $this->plugin_name == get_current_screen()->id) {
             $params = array('ajaxurl' => admin_url('admin-ajax.php'), 'plugin_name' => $this->plugin_name);
-            wp_enqueue_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/wp-attachment-download-admin.js', array('jquery', 'jquery-ui-datepicker'), $this->version, false);
+            wp_enqueue_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/wp-attachment-download-admin.min.js', array('jquery', 'jquery-ui-datepicker'), $this->version, false);
             wp_localize_script($this->plugin_name, 'params', $params);
         }
     }
@@ -170,7 +170,7 @@ class Wp_Attachment_Download_Admin {
                 $reponse['title'] = __('The request was successful.', $this->plugin_name);
                 $text = sprintf(__('Your ZIP file is prepared and should be downloaded automatically. If not you can download it <a href="%1$s" download target="_blank">here</a>. Have a nice day!', $this->plugin_name), DOWNLOAD_MEDIA_FOLDER_URL . $result['zip_file']);
                 $reponse['text'] = $text;
-                $reponse['zip_file'] = DOWNLOAD_MEDIA_FOLDER_URL . $result['zip_file'];
+                $reponse['zip_file'] = WAD_DOWNLOAD_MEDIA_FOLDER_URL . $result['zip_file'];
 
                 wp_send_json($reponse);
                 wp_die();
@@ -238,7 +238,7 @@ class Wp_Attachment_Download_Admin {
     public function prepare_zip_file($data, $get_messages = false) {
         // create ZIP file
         $zip_file = apply_filters('zip_file_name', $data['wp-attachment-download']['post_type']);
-        $zip = $this->create_zip_file(DOWNLOAD_MEDIA_FOLDER . $zip_file);
+        $zip = $this->create_zip_file(WAD_DOWNLOAD_MEDIA_FOLDER . $zip_file);
         $message = sprintf(__('ZIP file created here: <b>%1$s</b><br>'), $zip->filename);
 
         // get file fields names

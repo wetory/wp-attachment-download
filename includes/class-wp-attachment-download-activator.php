@@ -30,8 +30,9 @@ class Wp_Attachment_Download_Activator {
      * @since    1.0.0
      */
     public static function activate() {
-        if(!is_dir(DOWNLOAD_MEDIA_FOLDER)){
-            mkdir(DOWNLOAD_MEDIA_FOLDER);
+        // Create downloads folder if not exists
+        if(!is_dir(WAD_DOWNLOAD_MEDIA_FOLDER)){
+            mkdir(WAD_DOWNLOAD_MEDIA_FOLDER);
         }
     }
 }

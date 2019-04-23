@@ -34,7 +34,7 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
- 
+
  * You should have received a copy of the GNU General Public License
  * along with {Plugin Name}. If not, see {License URI}.
  * 
@@ -45,20 +45,16 @@ if (!defined('WPINC')) {
 }
 
 // Constants definition
-defined('DOWNLOAD_MEDIA_FOLDER') or define('DOWNLOAD_MEDIA_FOLDER', plugin_dir_path(__FILE__) . '/downloads/');
-defined('DOWNLOAD_MEDIA_FOLDER_URL') or define('DOWNLOAD_MEDIA_FOLDER_URL', plugin_dir_url(__FILE__) . '/downloads/');
-defined('PLUGIN_DIR') or define('PLUGIN_DIR', dirname(plugin_basename(__FILE__)));
-defined('PLUGIN_BASE') or define('PLUGIN_BASE', plugin_basename(__FILE__));
-defined('PLUGIN_URL') or define('PLUGIN_URL', plugin_dir_url(__FILE__));
-defined('PLUGIN_PATH') or define('PLUGIN_PATH', plugin_dir_path(__FILE__));
-defined('PLUGIN_FILE') or define('PLUGIN_FILE', __FILE__);
+defined('WAD_DOWNLOAD_MEDIA_FOLDER') or define('WAD_DOWNLOAD_MEDIA_FOLDER', plugin_dir_path(__FILE__) . '/downloads/');
+defined('WAD_DOWNLOAD_MEDIA_FOLDER_URL') or define('WAD_DOWNLOAD_MEDIA_FOLDER_URL', plugin_dir_url(__FILE__) . '/downloads/');
+defined('WAD_PLUGIN_FILE') or define('WAD_PLUGIN_FILE', __FILE__);
 
 /**
  * Currently plugin version.
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define('WP_ATTACHMENT_DOWNLOAD_VERSION', '1.0.1');
+define('WAD_VERSION', '1.0.1');
 
 /**
  * The code that runs during plugin activation.
