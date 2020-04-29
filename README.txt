@@ -41,18 +41,11 @@ where you can report issues, review code and commits. Please report all possible
 == Installation ==
 From your WordPress dashboard
 
-1. **Visit** Plugins > Add New
-2. **Search** for \"WP Attachment Download\"
-3. **Activate** WP Attachment Download from your Plugins page
-4. **Go to** `Tools -> Attachments` to start your work.
+1. Visit **Plugins > Add New**
+2. Search for "WP Attachment Download"
+3. Activate WP Attachment Download from your Plugins page
+4. Go to **Tools -> Attachments** to start your work.
 5. Enjoy!
-
-Manually upload
-
-1. **Upload** `wp-attachment-download.php` to the `/wp-content/plugins/` directory
-2. **Activate** WP Attachment Download from your Plugins page
-3. **Go to** `Tools -> Attachments` to start your work.
-4. Enjoy!
 
 == Frequently Asked Questions ==
 =Download button is disabled. Why?=
@@ -68,10 +61,10 @@ You can find download link in successful request information section under Downl
 2. Successful request to download attachments screen
 
 == Changelog ==
-=1.0.1=
+= 1.0.1 =
 * Added check if there are some ACF field groups containing file fields before displaying admin form
 
-=1.0.0 =
+= 1.0.0 =
 * First fully functional tested version of this plugin.
 
 == Upgrade Notice ==
